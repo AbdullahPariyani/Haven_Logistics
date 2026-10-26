@@ -1,0 +1,316 @@
+{
+	"defaultLanguage": "en",
+	"languages": [
+		{ "code": "en", "label": "English", "dir": "ltr" },
+		{ "code": "ar", "label": "العربية", "dir": "rtl" }
+	],
+	"routes": [
+		{ "key": "home", "path": "/" },
+		{ "key": "services", "path": "/services" },
+		{ "key": "tracking", "path": "/tracking" },
+		{ "key": "company", "path": "/company" },
+		{ "key": "blog", "path": "/blog" },
+		{ "key": "contact", "path": "/contact" }
+	],
+	"socialLinks": [
+		{ "icon": "fa-brands fa-facebook-f", "url": "https://haven-logistics.com" },
+		{ "icon": "fa-brands fa-linkedin-in", "url": "https://haven-logistics.com" },
+		{ "icon": "fa-brands fa-instagram", "url": "https://haven-logistics.com" }
+	],
+	"content": {
+		"en": {
+			"brand": {
+				"name": "Haven Logistics",
+				"tagline": "Your logistics Partner",
+				"hours": "Sun - Thu: 09:00 am - 05:00 pm | Sat: By Appointment",
+				"phone": "+966 54 356 7666",
+				"officeLine": "+966 012 674 4466",
+				"email": "info@haven-logistics.com",
+				"address": "Tamimi Building, 2nd Floor, Building 3 Mobily, Jeddah, Makkah, Saudi Arabia"
+			},
+			"nav": {
+				"home": "Home",
+				"services": "Services",
+				"tracking": "Tracking",
+				"company": "Company",
+				"blog": "Blog",
+				"contact": "Contact",
+				"quote": "Request Quote"
+			},
+			"home": {
+				"label": "Worldwide Freight Solutions",
+				"title": "Reliable Logistics & Transport Services",
+				"description": "We provide fast, safe, and secure transportation services for your business needs. From ocean freight to air cargo, we handle it all with precision.",
+				"ctaPrimary": "Explore Services",
+				"ctaSecondary": "Track Shipment",
+				"stats": [
+					{ "value": "15K+", "label": "Delivered Shipments" },
+					{ "value": "50+", "label": "Countries Served" },
+					{ "value": "24/7", "label": "Support Available" }
+				],
+				"features": [
+					{
+						"icon": "fa-solid fa-truck-fast",
+						"title": "Express Delivery",
+						"description": "Optimized routes and dedicated fleet ensure your cargo arrives on time, every single time."
+					},
+					{
+						"icon": "fa-solid fa-shield-halved",
+						"title": "Secure Transport",
+						"description": "Advanced tracking and security protocols keep your valuable goods safe during transit."
+					},
+					{
+						"icon": "fa-solid fa-earth-americas",
+						"title": "Global Network",
+						"description": "Connected with major ports and hubs worldwide for seamless international trade."
+					}
+				]
+			},
+			"services": {
+				"label": "Our Services",
+				"title": "International Shipping Services",
+				"description": "Haven Logistics has earned its positive reputation because we go out of our way to provide truly exceptional service to each customer. We understand that your needs can change last minute, and we are ready to adapt quickly to ensure your success.",
+				"items": [
+					{
+						"icon": "fa-solid fa-plane-departure",
+						"title": "Air Freight",
+						"description": "Outstanding global air cargo forwarding with innovative cargo management and direct carrier partnerships. Our customers trust our refined express air freight service.",
+						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/air.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+					},
+					{
+						"icon": "fa-solid fa-ship",
+						"title": "Sea Freight",
+						"description": "Excellent global sea freight forwarding supported by strong year-on-year growth and trusted partnerships with preferred ocean carriers.",
+						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/sea%20freight.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+					},
+					{
+						"icon": "fa-solid fa-truck",
+						"title": "Land Transport",
+						"description": "Our international road freight services, including GCC door-to-door delivery with clearance, are designed to keep your operations easy and stress-free.",
+						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/truck.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+					}
+				]
+			},
+			"tracking": {
+				"title": "Track Your Order",
+				"subtitle": "Enter your tracking ID for instant search",
+				"placeholder": "Tracking ID",
+				"button": "Track",
+				"stats": [
+					{ "value": "60", "label": "Years Experience" },
+					{ "value": "2500+", "label": "Professional Workers" },
+					{ "value": "80%", "label": "Areas Covered" },
+					{ "value": "205+", "label": "Countries Covered" }
+				]
+			},
+			"company": {
+				"label": "Why Choose Us",
+				"title": "We Create Opportunities to Reach Your Full Potential",
+				"description": "With over 25 years of experience in the logistics industry, we have built a reputation for reliability, efficiency, and customer satisfaction.",
+				"highlights": ["Real-time tracking for all shipments", "Transparent pricing with no hidden fees", "Dedicated support team available 24/7", "Global network of trusted partners"],
+				"processTitle": "Simple Shipping Process",
+				"process": ["Request Quote", "Prepare Cargo", "Shipment", "Delivery"]
+			},
+			"blog": {
+				"label": "Latest News",
+				"title": "Logistics Insights & Updates",
+				"description": "Stay informed with the latest trends, tips, and news from the transportation industry.",
+				"posts": [
+					{
+						"title": "Global Supply Chain Trends to Watch",
+						"date": "Oct 24, 2026",
+						"summary": "Explore technologies and strategies shaping the future of logistics.",
+						"image": "/images/img(1).jpg"
+					},
+					{
+						"title": "Optimizing Your Cargo for Safer Transport",
+						"date": "Oct 18, 2026",
+						"summary": "Practical tips on packaging and securing goods for reliable transport.",
+						"image": "/images/img(2).jpg"
+					},
+					{
+						"title": "Benefits of Modern Warehousing Solutions",
+						"date": "Oct 12, 2026",
+						"summary": "How smart warehousing can reduce costs and improve delivery speed.",
+						"image": "/images/img(3).jpg"
+					}
+				]
+			},
+			"contact": {
+				"eyebrow": "Better yet, see us in person!",
+				"subtitle": "Your logistics Partner",
+				"title": "Haven Logistics",
+				"description": "Visit us during business hours or contact our team anytime for shipping and logistics support.",
+				"callNowLink": "https://haven-logistics.com/tel:+966582410533",
+				"hoursTitle": "Hours",
+				"contactInfoTitle": "Contact Information",
+				"hours": [
+					{ "day": "Mon", "time": "09:00 am - 05:00 pm" },
+					{ "day": "Tue", "time": "09:00 am - 05:00 pm" },
+					{ "day": "Wed", "time": "09:00 am - 05:00 pm" },
+					{ "day": "Thu", "time": "09:00 am - 05:00 pm" },
+					{ "day": "Fri", "time": "Closed" },
+					{ "day": "Sat", "time": "By Appointment" },
+					{ "day": "Sun", "time": "09:00 am - 05:00 pm" }
+				],
+				"form": {
+					"name": "Full Name",
+					"email": "Email Address",
+					"message": "Your Message",
+					"submit": "Send Message"
+				}
+			},
+			"footer": {
+				"about": "Haven Logistics provides reliable freight forwarding and transport solutions with flexible execution and customer-first support.",
+				"copyright": "© 2026 Haven Logistics. All rights reserved."
+			}
+		},
+		"ar": {
+			"brand": {
+				"name": "هافن لوجستكس",
+				"tagline": "شريكك اللوجستي",
+				"hours": "الأحد - الخميس: 09:00 ص - 05:00 م | السبت: حسب الموعد",
+				"phone": "+966 54 356 7666",
+				"officeLine": "+966 012 674 4466",
+				"email": "info@haven-logistics.com",
+				"address": "مبنى التميمي، الدور الثاني، مبنى 3 موبايلي، جدة، مكة، السعودية"
+			},
+			"nav": {
+				"home": "الرئيسية",
+				"services": "الخدمات",
+				"tracking": "التتبع",
+				"company": "الشركة",
+				"blog": "المدونة",
+				"contact": "اتصل بنا",
+				"quote": "طلب عرض سعر"
+			},
+			"home": {
+				"label": "حلول شحن عالمية",
+				"title": "خدمات لوجستية ونقل موثوقة",
+				"description": "نقدم خدمات نقل سريعة وآمنة لاحتياجات أعمالك، من الشحن البحري إلى الجوي بدقة عالية.",
+				"ctaPrimary": "استكشف الخدمات",
+				"ctaSecondary": "تتبع الشحنة",
+				"stats": [
+					{ "value": "15K+", "label": "شحنة تم تسليمها" },
+					{ "value": "50+", "label": "دولة نخدمها" },
+					{ "value": "24/7", "label": "دعم متواصل" }
+				],
+				"features": [
+					{
+						"icon": "fa-solid fa-truck-fast",
+						"title": "تسليم سريع",
+						"description": "مسارات محسّنة وأسطول مخصص لضمان وصول الشحنات في الوقت المحدد."
+					},
+					{
+						"icon": "fa-solid fa-shield-halved",
+						"title": "نقل آمن",
+						"description": "أنظمة تتبع متقدمة وبروتوكولات أمان لحماية بضائعك أثناء النقل."
+					},
+					{
+						"icon": "fa-solid fa-earth-americas",
+						"title": "شبكة عالمية",
+						"description": "ارتباط مباشر بالموانئ والمراكز الرئيسية حول العالم."
+					}
+				]
+			},
+			"services": {
+				"label": "خدماتنا",
+				"title": "خدمات الشحن الدولي",
+				"description": "اكتسبت هافن لوجستكس سمعة إيجابية لأننا نقدم خدمة استثنائية لكل عميل. نحن جاهزون للتكيف السريع مع أي تغييرات لضمان نجاح أعمالك.",
+				"items": [
+					{
+						"icon": "fa-solid fa-plane-departure",
+						"title": "الشحن الجوي",
+						"description": "خدمات شحن جوي عالمية متميزة بإدارة مبتكرة وشراكات مباشرة مع شركات الطيران.",
+						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/air.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+					},
+					{
+						"icon": "fa-solid fa-ship",
+						"title": "الشحن البحري",
+						"description": "خدمات شحن بحري عالمية مدعومة بشراكات قوية مع ناقلين بحريين مفضلين.",
+						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/sea%20freight.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+					},
+					{
+						"icon": "fa-solid fa-truck",
+						"title": "النقل البري",
+						"description": "خدمة الشحن البري الدولي داخل دول الخليج من الباب إلى الباب مع التخليص لتسهيل أعمالك دون تعقيد.",
+						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/truck.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+					}
+				]
+			},
+			"tracking": {
+				"title": "تتبع طلبك",
+				"subtitle": "أدخل رقم التتبع للحصول على النتائج فوراً",
+				"placeholder": "رقم التتبع",
+				"button": "تتبع",
+				"stats": [
+					{ "value": "60", "label": "سنة خبرة" },
+					{ "value": "2500+", "label": "موظف محترف" },
+					{ "value": "80%", "label": "نسبة التغطية" },
+					{ "value": "205+", "label": "دولة مغطاة" }
+				]
+			},
+			"company": {
+				"label": "لماذا نحن",
+				"title": "نصنع فرصاً للوصول إلى إمكاناتك الكاملة",
+				"description": "بخبرة تتجاوز 25 عاماً في القطاع اللوجستي، بنينا سمعة قوية في الاعتمادية والكفاءة.",
+				"highlights": ["تتبع مباشر لجميع الشحنات", "أسعار واضحة بدون رسوم خفية", "فريق دعم متاح على مدار الساعة", "شبكة عالمية من الشركاء الموثوقين"],
+				"processTitle": "عملية شحن بسيطة",
+				"process": ["طلب عرض سعر", "تجهيز الشحنة", "الشحن", "التسليم"]
+			},
+			"blog": {
+				"label": "آخر الأخبار",
+				"title": "رؤى وتحديثات لوجستية",
+				"description": "تابع أحدث الاتجاهات والنصائح في قطاع النقل والخدمات اللوجستية.",
+				"posts": [
+					{
+						"title": "اتجاهات سلاسل الإمداد العالمية",
+						"date": "24 أكتوبر 2026",
+						"summary": "تعرف على التقنيات والاستراتيجيات التي تشكل مستقبل الخدمات اللوجستية.",
+						"image": "/images/img(1).jpg"
+					},
+					{
+						"title": "تحسين تجهيز الشحنات لنقل أكثر أماناً",
+						"date": "18 أكتوبر 2026",
+						"summary": "نصائح عملية حول التغليف والتأمين لضمان وصول البضائع بسلام.",
+						"image": "/images/img(2).jpg"
+					},
+					{
+						"title": "فوائد حلول التخزين الحديثة",
+						"date": "12 أكتوبر 2026",
+						"summary": "كيف يقلل التخزين الذكي التكاليف ويحسن سرعة التسليم.",
+						"image": "/images/img(3).jpg"
+					}
+				]
+			},
+			"contact": {
+				"eyebrow": "يسعدنا زيارتك شخصياً",
+				"subtitle": "شريكك اللوجستي",
+				"title": "هافن لوجستكس",
+				"description": "زرنا خلال ساعات العمل أو تواصل مع فريقنا للحصول على دعم سريع لخدمات الشحن.",
+				"callNowLink": "https://haven-logistics.com/tel:+966582410533",
+				"hoursTitle": "ساعات العمل",
+				"contactInfoTitle": "معلومات التواصل",
+				"hours": [
+					{ "day": "الاثنين", "time": "09:00 ص - 05:00 م" },
+					{ "day": "الثلاثاء", "time": "09:00 ص - 05:00 م" },
+					{ "day": "الأربعاء", "time": "09:00 ص - 05:00 م" },
+					{ "day": "الخميس", "time": "09:00 ص - 05:00 م" },
+					{ "day": "الجمعة", "time": "مغلق" },
+					{ "day": "السبت", "time": "حسب الموعد" },
+					{ "day": "الأحد", "time": "09:00 ص - 05:00 م" }
+				],
+				"form": {
+					"name": "الاسم الكامل",
+					"email": "البريد الإلكتروني",
+					"message": "رسالتك",
+					"submit": "إرسال"
+				}
+			},
+			"footer": {
+				"about": "هافن لوجستكس تقدم حلول شحن ونقل موثوقة مع تنفيذ مرن ودعم يركز على العميل.",
+				"copyright": "© 2026 هافن لوجستكس. جميع الحقوق محفوظة."
+			}
+		}
+	}
+}

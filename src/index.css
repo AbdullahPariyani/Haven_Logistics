@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+}
+
+#root {
+	min-height: 100vh;
+}
+
+#home,
+#tracking,
+#services,
+#company,
+#blog,
+#footer-contact {
+	scroll-margin-top: 120px;
+}
+
+html[dir='rtl'] .header-grid,
+html[dir='rtl'] .topbar-grid,
+html[dir='rtl'] .topbar-left,
+html[dir='rtl'] .topbar-right {
+	direction: rtl;
+}
+
+html[dir='rtl'] .nav-menu {
+	direction: rtl;
+}
+
+html[dir='rtl'] .hero-buttons,
+html[dir='rtl'] .social-links,
+html[dir='rtl'] .check-list {
+	justify-content: flex-end;
+}
