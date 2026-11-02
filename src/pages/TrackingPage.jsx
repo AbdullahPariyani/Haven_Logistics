@@ -25,7 +25,7 @@ export default function TrackingPage() {
 				</div>
 
 				<div className='stats-box'>
-					<img src='/images/img(10).jpg' alt='Tracking overview' />
+					<img src={`${import.meta.env.BASE_URL}images/img(10).jpg`} alt='Tracking overview' />
 					<div className='stats-overlay'></div>
 					<div className='stats-grid'>
 						{t.tracking.stats.map((item) => (

@@ -120,19 +120,19 @@
 						"title": "Global Supply Chain Trends to Watch",
 						"date": "Oct 24, 2026",
 						"summary": "Explore technologies and strategies shaping the future of logistics.",
-						"image": "/images/img(1).jpg"
+						"image": "images/img(1).jpg"
 					},
 					{
 						"title": "Optimizing Your Cargo for Safer Transport",
 						"date": "Oct 18, 2026",
 						"summary": "Practical tips on packaging and securing goods for reliable transport.",
-						"image": "/images/img(2).jpg"
+						"image": "images/img(2).jpg"
 					},
 					{
 						"title": "Benefits of Modern Warehousing Solutions",
 						"date": "Oct 12, 2026",
 						"summary": "How smart warehousing can reduce costs and improve delivery speed.",
-						"image": "/images/img(3).jpg"
+						"image": "images/img(3).jpg"
 					}
 				]
 			},
@@ -267,19 +267,19 @@
 						"title": "اتجاهات سلاسل الإمداد العالمية",
 						"date": "24 أكتوبر 2026",
 						"summary": "تعرف على التقنيات والاستراتيجيات التي تشكل مستقبل الخدمات اللوجستية.",
-						"image": "/images/img(1).jpg"
+						"image": "images/img(1).jpg"
 					},
 					{
 						"title": "تحسين تجهيز الشحنات لنقل أكثر أماناً",
 						"date": "18 أكتوبر 2026",
 						"summary": "نصائح عملية حول التغليف والتأمين لضمان وصول البضائع بسلام.",
-						"image": "/images/img(2).jpg"
+						"image": "images/img(2).jpg"
 					},
 					{
 						"title": "فوائد حلول التخزين الحديثة",
 						"date": "12 أكتوبر 2026",
 						"summary": "كيف يقلل التخزين الذكي التكاليف ويحسن سرعة التسليم.",
-						"image": "/images/img(3).jpg"
+						"image": "images/img(3).jpg"
 					}
 				]
 			},

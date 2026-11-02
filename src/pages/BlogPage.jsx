@@ -5,7 +5,7 @@ export default function BlogPage() {
 
 	return (
 		<section className='blog-section fade-on-scroll' id='blog'>
-			<div className='why-choose-bg' style={{ backgroundImage: "url('/images/img(10).jpg')" }}></div>
+			<div className='why-choose-bg' style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/img(10).jpg')` }}></div>
 			<div className='why-choose-overlay'></div>
 			<div className='container'>
 				<div className='section-header'>
@@ -18,7 +18,7 @@ export default function BlogPage() {
 					{t.blog.posts.map((post) => (
 						<div className='blog-card' key={post.title}>
 							<div className='blog-image'>
-								<img src={post.image} alt={post.title} />
+								<img src={import.meta.env.BASE_URL + post.image} alt={post.title} />
 								<span className='blog-date'>{post.date}</span>
 							</div>
 							<div className='blog-content'>

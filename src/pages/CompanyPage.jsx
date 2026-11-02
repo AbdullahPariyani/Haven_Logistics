@@ -6,7 +6,7 @@ export default function CompanyPage() {
 	return (
 		<>
 			<section className='why-choose-section fade-on-scroll' id='company'>
-				<div className='why-choose-bg' style={{ backgroundImage: "url('/images/img(7).jpg')" }}></div>
+				<div className='why-choose-bg' style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/img(7).jpg')` }}></div>
 				<div className='why-choose-overlay'></div>
 				<div className='container'>
 					<div className='why-choose-content'>

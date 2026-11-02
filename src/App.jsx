@@ -6,7 +6,7 @@ import HomePage from './pages/HomePage.jsx';
 function App() {
 	return (
 		<LanguageProvider>
-			<BrowserRouter>
+			<BrowserRouter basename={import.meta.env.BASE_URL}>
 				<Layout>
 					<Routes>
 						<Route path='/' element={<HomePage />} />

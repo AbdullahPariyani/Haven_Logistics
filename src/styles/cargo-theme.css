@@ -48,21 +48,21 @@
    1. FONTS & VARIABLES
    ============================================ */
 :root {
-  --cargo-cream: #F8FAFC;
+  --cargo-cream: #F7F7F7;
   --cargo-white: #FFFFFF;
-  --cargo-ink: #0F172A;
-  --cargo-ink-light: #334155;
-  --cargo-brown: #1E293B;
-  --cargo-brown-dark: #020617;
-  --cargo-brown-light: #475569;
-  --cargo-blue: #2563EB;
-  --cargo-blue-dark: #003e9d;
-  --cargo-blue-light: #60A5FA;
-  --cargo-gold: #0EA5E9;
-  --cargo-muted: #64748B;
-  --cargo-border: #E2E8F0;
-  --cargo-shadow: rgba(15, 23, 42, 0.08);
-  --cargo-shadow-lg: rgba(15, 23, 42, 0.12);
+  --cargo-ink: #111111;
+  --cargo-ink-light: #333333;
+  --cargo-brown: #1A1A1A;
+  --cargo-brown-dark: #0A0A0A;
+  --cargo-brown-light: #4A4A4A;
+  --cargo-blue: #E31E27;
+  --cargo-blue-dark: #B3141C;
+  --cargo-blue-light: #F0545B;
+  --cargo-gold: #A8AAAC;
+  --cargo-muted: #6B6D70;
+  --cargo-border: #E4E4E5;
+  --cargo-shadow: rgba(0, 0, 0, 0.08);
+  --cargo-shadow-lg: rgba(0, 0, 0, 0.12);
   
   /* Typography */
   --font-primary: 'Roboto', sans-serif;
@@ -448,7 +448,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   z-index: 1;
-  box-shadow: 0 6px 16px rgba(0, 39, 99, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  box-shadow: 0 6px 16px rgba(10, 10, 10, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.16);
 }
 
 .btn-hero{
@@ -524,7 +524,7 @@ a:hover {
 .btn-primary:hover,
 .btn-hero.btn-primary:hover {
   background: var(--cargo-blue-dark);
-  box-shadow: 0 14px 28px rgba(0, 39, 99, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  box-shadow: 0 14px 28px rgba(10, 10, 10, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.22);
   transform: translateY(0px) scale(1);
 }
 
@@ -596,7 +596,7 @@ a:hover {
 }
 
 .home-video-hero .hero-overlay {
-  background: linear-gradient(110deg, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.7) 42%, rgba(15, 23, 42, 0.42) 74%, rgba(15, 23, 42, 0.25) 100%);
+  background: linear-gradient(110deg, rgba(17, 17, 17, 0.9) 0%, rgba(17, 17, 17, 0.7) 42%, rgba(17, 17, 17, 0.42) 74%, rgba(17, 17, 17, 0.25) 100%);
 }
 
 .hero-slider-section {
@@ -646,7 +646,7 @@ a:hover {
   width: 100%;
   height: 100%;
   inset: 0;
-  background: linear-gradient(110deg, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.74) 44%, rgba(15, 23, 42, 0.45) 77%, rgba(15, 23, 42, 0.28) 100%);
+  background: linear-gradient(110deg, rgba(17, 17, 17, 0.9) 0%, rgba(17, 17, 17, 0.74) 44%, rgba(17, 17, 17, 0.45) 77%, rgba(17, 17, 17, 0.28) 100%);
 }
 
 .hero-slider-content {
@@ -715,10 +715,10 @@ a:hover {
   height: 100%;
   background: linear-gradient(
     105deg,
-    rgba(15, 23, 42, 0.95) 0%,
-    rgba(15, 23, 42, 0.85) 45%,
-    rgba(15, 23, 42, 0.4) 75%,
-    rgba(15, 23, 42, 0.1) 100%
+    rgba(17, 17, 17, 0.95) 0%,
+    rgba(17, 17, 17, 0.85) 45%,
+    rgba(17, 17, 17, 0.4) 75%,
+    rgba(17, 17, 17, 0.1) 100%
   );
 }
 
@@ -753,7 +753,7 @@ a:hover {
 }
 
 .hero-split .stat-divider {
-  background: rgba(15, 23, 42, 0.14);
+  background: rgba(17, 17, 17, 0.14);
 }
 
 .hero-split-right {
@@ -773,7 +773,7 @@ a:hover {
 .hero-split-shade {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(15, 23, 42, 0.1) 0%, rgba(15, 23, 42, 0.58) 100%);
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0.1) 0%, rgba(17, 17, 17, 0.58) 100%);
 }
 
 .hero-split-card {
@@ -782,11 +782,11 @@ a:hover {
   right: clamp(20px, 4vw, 46px);
   bottom: clamp(180px, 40vh, 160px);
   z-index: 3;
-  background: linear-gradient(145deg, rgba(8, 16, 38, 0.82) 0%, rgba(8, 16, 38, 0.68) 100%);
+  background: linear-gradient(145deg, rgba(10, 10, 10, 0.82) 0%, rgba(10, 10, 10, 0.68) 100%);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 24px;
   padding: 22px 24px 24px;
-  box-shadow: 0 16px 42px rgba(8, 15, 34, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 16px 42px rgba(10, 10, 10, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(22px) saturate(140%);
   -webkit-backdrop-filter: blur(22px) saturate(140%);
   overflow: hidden;
@@ -799,7 +799,7 @@ a:hover {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, rgba(96, 165, 250, 0.08) 0%, rgba(96, 165, 250, 0.34) 50%, rgba(96, 165, 250, 0.08) 100%);
+  background: linear-gradient(90deg, rgba(240, 84, 91, 0.08) 0%, rgba(240, 84, 91, 0.34) 50%, rgba(240, 84, 91, 0.08) 100%);
 }
 
 .hero-split-card-label {
@@ -810,7 +810,7 @@ a:hover {
   font-size: 0.68rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: rgba(191, 219, 254, 0.88);
+  color: rgba(220, 221, 222, 0.88);
 }
 
 .hero-split-card h4 {
@@ -827,7 +827,7 @@ a:hover {
   position: relative;
   z-index: 1;
   margin-bottom: 0;
-  color: rgba(226, 232, 240, 0.9);
+  color: rgba(228, 228, 229, 0.9);
   font-size: 0.96rem;
   line-height: 1.7;
   max-width: 36ch;
@@ -940,7 +940,7 @@ a:hover {
   color: var(--cargo-white);
   margin-bottom: var(--space-2xl);
   letter-spacing: -0.04em;
-  text-shadow: 0 8px 16px rgba(5, 10, 20, 0.25);
+  text-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
 }
 
 .title-line {
@@ -949,7 +949,7 @@ a:hover {
 
 .title-line-accent {
   color: transparent;
-  background: linear-gradient(90deg, rgba(0, 115, 255, 0.72) 0%, rgba(0, 119, 255, 0.95) 55%, rgba(0, 110, 255, 0.92) 100%);
+  background: linear-gradient(90deg, rgba(227, 30, 39, 0.72) 0%, rgba(227, 30, 39, 0.95) 55%, rgba(227, 30, 39, 0.92) 100%);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -1087,7 +1087,7 @@ a:hover {
 .feature-icon {
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, #FEF5ED 0%, #FEF0E6 100%);
+  background: linear-gradient(135deg, #fdf1f1 0%, #fce6e7 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1102,7 +1102,7 @@ a:hover {
   background: var(--cargo-blue);
   color: var(--cargo-white);
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
+  box-shadow: 0 10px 25px rgba(227, 30, 39, 0.2);
 }
 
 .feature-content {
@@ -1366,7 +1366,7 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(15, 23, 42, 0.1) 0%, rgba(15, 23, 42, 0.6) 100%);
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0.1) 0%, rgba(17, 17, 17, 0.6) 100%);
   transition: var(--transition);
   opacity: 0;
 }
@@ -1374,7 +1374,7 @@ a:hover {
 .service-card:hover .service-overlay {
   opacity: 1;
   transition: var(--transition);
-  background: linear-gradient(180deg, rgba(37, 99, 235, 0.5) 0%, rgba(29, 78, 216, 0.7) 100%);
+  background: linear-gradient(180deg, rgba(227, 30, 39, 0.5) 0%, rgba(179, 20, 28, 0.7) 100%);
 }
 
 .service-icon {
@@ -1465,7 +1465,7 @@ a:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(15, 23, 42, 0.92);
+  background: rgba(17, 17, 17, 0.92);
 }
 
 .why-choose-content {
@@ -1543,7 +1543,7 @@ a:hover {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(15, 23, 42, 0.85);
+  background: rgba(17, 17, 17, 0.85);
 }
 
 .page-header-content {
@@ -1739,8 +1739,8 @@ a:hover {
   right: 0;
   bottom: 0;
   background: linear-gradient(135deg, 
-    rgba(41, 98, 255, 0.08),
-    rgba(255, 107, 0, 0.08)
+    rgba(227, 30, 39, 0.08),
+    rgba(227, 30, 39, 0.08)
   );
   opacity: 0;
   transition: opacity 0.5s ease;
@@ -1965,7 +1965,7 @@ a:hover {
   background: linear-gradient(90deg, var(--cargo-blue), var(--cargo-orange));
   width: 32px;
   border-radius: 5px;
-  box-shadow: 0 2px 8px rgba(41, 98, 255, 0.3);
+  box-shadow: 0 2px 8px rgba(227, 30, 39, 0.3);
 }
 
 /* Responsive */
@@ -2058,10 +2058,10 @@ a:hover {
 }
 
 .shipment-info-card {
-  background: #f8fafc;
+  background: #f7f7f7;
   padding: 40px;
   border-radius: var(--border-radius);
-  border: 1px solid #e2e8f0;
+  border: 1px solid #e4e4e5;
 }
 
 .shipment-list {
@@ -2074,7 +2074,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   padding: 15px 0;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e4e4e5;
   font-size: 1.05rem;
 }
 
@@ -2107,7 +2107,7 @@ a:hover {
   left: 24px;
   height: 100%;
   width: 2px;
-  background: #e2e8f0;
+  background: #e4e4e5;
 }
 
 .timeline-item {
@@ -2126,7 +2126,7 @@ a:hover {
   width: 50px;
   height: 50px;
   background: #fff;
-  border: 2px solid #e2e8f0;
+  border: 2px solid #e4e4e5;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -2140,7 +2140,7 @@ a:hover {
   border-color: var(--cargo-blue);
   background: var(--cargo-blue);
   color: #fff;
-  box-shadow: 0 0 0 8px rgba(37, 99, 235, 0.1);
+  box-shadow: 0 0 0 8px rgba(227, 30, 39, 0.1);
   animation: pulse-ring 2s infinite;
 }
 
@@ -2186,13 +2186,13 @@ a:hover {
 
 @keyframes pulse-ring {
   0% {
-    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.7);
+    box-shadow: 0 0 0 0 rgba(227, 30, 39, 0.7);
   }
   70% {
-    box-shadow: 0 0 0 12px rgba(37, 99, 235, 0);
+    box-shadow: 0 0 0 12px rgba(227, 30, 39, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0);
+    box-shadow: 0 0 0 0 rgba(227, 30, 39, 0);
   }
 }
 
@@ -2216,9 +2216,9 @@ a:hover {
 
 /* Connect completed lines */
 .tracking-timeline::before {
-  background: linear-gradient(to bottom, var(--cargo-blue) 0%, var(--cargo-blue) 50%, #e2e8f0 50%, #e2e8f0 100%); 
+  background: linear-gradient(to bottom, var(--cargo-blue) 0%, var(--cargo-blue) 50%, #e4e4e5 50%, #e4e4e5 100%); 
   /* This is a static gradient hack. For dynamic, JS is better, but simple CSS: */
-  background: #e2e8f0;
+  background: #e4e4e5;
 }
 
 .timeline-content {
@@ -2226,7 +2226,7 @@ a:hover {
   padding: 30px;
   border-radius: var(--border-radius);
   box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-  border: 1px solid #f1f5f9;
+  border: 1px solid #f2f2f3;
   position: relative;
 }
 
@@ -2238,8 +2238,8 @@ a:hover {
   width: 16px;
   height: 16px;
   background: #fff;
-  border-left: 1px solid #f1f5f9;
-  border-bottom: 1px solid #f1f5f9;
+  border-left: 1px solid #f2f2f3;
+  border-bottom: 1px solid #f2f2f3;
   transform: rotate(45deg);
 }
 
@@ -2275,7 +2275,7 @@ a:hover {
   font-style: italic;
   font-size: 1.25rem;
   color: var(--cargo-ink);
-  background: #f8fafc;
+  background: #f7f7f7;
   padding: 30px;
 }
 
@@ -2357,7 +2357,7 @@ a:hover {
 }
 
 .service-list-widget li a:hover {
-  background: rgba(37, 99, 235, 0.08);
+  background: rgba(227, 30, 39, 0.08);
   color: var(--cargo-blue);
 }
 
@@ -2388,7 +2388,7 @@ a:hover {
   padding: 16px;
   border: 1px solid var(--cargo-border);
   border-radius: 12px;
-  background: #F8FAFF;
+  background: #f9f9f9;
   color: var(--cargo-ink);
   text-decoration: none;
   transition: var(--transition);
@@ -2401,7 +2401,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: rgba(37, 99, 235, 0.12);
+  background: rgba(227, 30, 39, 0.12);
   color: var(--cargo-blue);
   font-size: 1.1rem;
   flex: 0 0 44px;
@@ -2449,9 +2449,9 @@ a:hover {
 }
 
 .brochure-btn:hover {
-  border-color: rgba(37, 99, 235, 0.45);
+  border-color: rgba(227, 30, 39, 0.45);
   background: #FFFFFF;
-  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.12);
+  box-shadow: 0 10px 24px rgba(227, 30, 39, 0.12);
 }
 
 .brochure-btn:hover .download {
@@ -2475,7 +2475,7 @@ a:hover {
 
 .sidebar-widget.p-0 .position-absolute {
   inset: 0;
-  background: linear-gradient(180deg, rgba(2, 6, 23, 0.45) 0%, rgba(2, 6, 23, 0.78) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.78) 100%);
   padding: 24px;
 }
 
@@ -2643,7 +2643,7 @@ a:hover {
   background: var(--cargo-blue);
   color: var(--cargo-white);
   transform: translateY(-8px);
-  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.25);
+  box-shadow: 0 10px 30px rgba(227, 30, 39, 0.25);
 }
 
 .process-number {
@@ -3000,7 +3000,7 @@ a:hover {
   background: var(--cargo-blue);
   color: #fff;
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(37, 99, 235, 0.2);
+  box-shadow: 0 5px 15px rgba(227, 30, 39, 0.2);
 }
 
 
@@ -3059,7 +3059,7 @@ a:hover {
     height: 100vh;
     background: var(--cargo-white);
     border-radius: 0;
-    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
+    box-shadow: 0 16px 40px rgba(17, 17, 17, 0.16);
     z-index: 1100;
     max-height: 100vh;
     overflow-y: auto;
@@ -3099,7 +3099,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    background: rgba(37, 99, 235, 0.08);
+    background: rgba(227, 30, 39, 0.08);
     color: var(--cargo-blue);
     transition: var(--transition);
     pointer-events: none;
@@ -3122,7 +3122,7 @@ a:hover {
     opacity: 1;
     visibility: visible;
     transform: none;
-    background: #f8fbff;
+    background: #f9f9f9;
     box-shadow: none;
     border-radius: 0;
     margin: 0;
@@ -3136,7 +3136,7 @@ a:hover {
 
   .main-nav.mobile-open .nav-menu ul li a {
     padding: 11px 26px;
-    border-bottom: 1px solid #e9f0fa;
+    border-bottom: 1px solid #fdecec;
     font-size: 0.875rem;
   }
 
@@ -3199,7 +3199,7 @@ a:hover {
   }
 
   .title-line-accent {
-    -webkit-text-stroke: 0.8px rgba(191, 219, 254, 0.45);
+    -webkit-text-stroke: 0.8px rgba(220, 221, 222, 0.45);
   }
   
   .hero-stats {
@@ -3292,7 +3292,7 @@ a:hover {
   }
 
   .title-line-accent {
-    -webkit-text-stroke: 0.6px rgba(191, 219, 254, 0.42);
+    -webkit-text-stroke: 0.6px rgba(220, 221, 222, 0.42);
   }
 
   .hero-slider-prev{
@@ -3353,9 +3353,9 @@ a:hover {
     bottom: 15%;
     margin: 14px;
     padding: 18px 18px 20px;
-    background: linear-gradient(145deg, rgba(8, 16, 38, 0.88) 0%, rgba(8, 16, 38, 0.76) 100%);
+    background: linear-gradient(145deg, rgba(10, 10, 10, 0.88) 0%, rgba(10, 10, 10, 0.76) 100%);
     border-color: rgba(255, 255, 255, 0.24);
-    box-shadow: 0 10px 24px rgba(8, 19, 42, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    box-shadow: 0 10px 24px rgba(10, 10, 10, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.12);
     backdrop-filter: blur(14px) saturate(130%);
     -webkit-backdrop-filter: blur(14px) saturate(130%);
   }
@@ -3487,7 +3487,7 @@ a:hover {
     cursor: pointer;
     display: block;
     border-radius: 50px;
-    box-shadow: inset 0 0 0 2px rgba(15, 23, 42, 0.05);
+    box-shadow: inset 0 0 0 2px rgba(17, 17, 17, 0.05);
     z-index: 99;
     opacity: 0;
     visibility: hidden;
@@ -3725,7 +3725,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(15, 23, 42, 0.85);
+    background: rgba(17, 17, 17, 0.85);
     z-index: 1;
 }
 
@@ -3834,7 +3834,7 @@ a:hover {
 
 .testimonial-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.1);
+  box-shadow: 0 15px 40px rgba(227, 30, 39, 0.1);
 }
 
 .quote-icon {
@@ -4017,7 +4017,7 @@ a:hover {
 
 .blog-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.1);
+  box-shadow: 0 15px 40px rgba(227, 30, 39, 0.1);
 }
 
 .blog-image {
@@ -4142,7 +4142,7 @@ a:hover {
   background: var(--cargo-blue);
   border-color: var(--cargo-blue);
   color: var(--cargo-white);
-  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
+  box-shadow: 0 8px 18px rgba(227, 30, 39, 0.25);
 }
 
 .blog-pagination .page-link i {
@@ -4194,14 +4194,14 @@ a:hover {
   border: 1px solid var(--cargo-border);
   border-radius: 14px;
   padding: 28px;
-  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+  box-shadow: 0 8px 20px rgba(17, 17, 17, 0.04);
   transition: var(--transition);
 }
 
 .fleet-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 14px 30px rgba(37, 99, 235, 0.12);
-  border-color: rgba(37, 99, 235, 0.35);
+  box-shadow: 0 14px 30px rgba(227, 30, 39, 0.12);
+  border-color: rgba(227, 30, 39, 0.35);
 }
 
 .fleet-icon {
@@ -4211,7 +4211,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: rgba(37, 99, 235, 0.1);
+  background: rgba(227, 30, 39, 0.1);
   color: var(--cargo-blue);
   font-size: 1.5rem;
   margin-bottom: 14px;

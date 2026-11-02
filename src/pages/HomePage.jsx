@@ -10,7 +10,7 @@ export default function HomePage() {
 	return (
 		<>
 			<section className='hero-section' id='home'>
-				<div className='hero-bg' style={{ backgroundImage: "url('/images/img(2).jpg')" }}></div>
+				<div className='hero-bg' style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/img(2).jpg')` }}></div>
 				<div className='hero-overlay'></div>
 				<div className='container'>
 					<div className='hero-content hero-enter'>

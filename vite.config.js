@@ -3,5 +3,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // GitHub Pages serves the site from /Haven_Logistics/; other hosts use the root.
+  base: process.env.BASE_PATH || '/',
   plugins: [react()],
 })
