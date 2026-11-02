@@ -18,7 +18,7 @@ export default function BlogPage() {
 					{t.blog.posts.map((post) => (
 						<div className='blog-card' key={post.title}>
 							<div className='blog-image'>
-								<img src={post.image.startsWith('http') ? post.image : import.meta.env.BASE_URL + post.image} alt={post.title} />
+								<img src={import.meta.env.BASE_URL + post.image} alt={post.title} />
 								<span className='blog-date'>{post.date}</span>
 							</div>
 							<div className='blog-content'>

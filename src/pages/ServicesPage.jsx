@@ -15,7 +15,7 @@ export default function ServicesPage() {
 					{t.services.items.map((item) => (
 						<div className='service-card' key={item.title}>
 							<div className='service-image'>
-								<img src={item.image.startsWith('http') ? item.image : import.meta.env.BASE_URL + item.image} alt={item.title} />
+								<img src={import.meta.env.BASE_URL + item.image} alt={item.title} />
 								<div className='service-overlay'></div>
 								<div className='service-icon'>
 									<i className={item.icon}></i>

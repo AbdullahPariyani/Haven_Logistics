@@ -75,19 +75,19 @@
 						"icon": "fa-solid fa-plane-departure",
 						"title": "Air Freight",
 						"description": "Outstanding global air cargo forwarding with innovative cargo management and direct carrier partnerships. Our customers trust our refined express air freight service.",
-						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/air.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+						"image": "images/air-freight.jpg"
 					},
 					{
 						"icon": "fa-solid fa-ship",
 						"title": "Sea Freight",
 						"description": "Excellent global sea freight forwarding supported by strong year-on-year growth and trusted partnerships with preferred ocean carriers.",
-						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/sea%20freight.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+						"image": "images/sea-freight.jpg"
 					},
 					{
 						"icon": "fa-solid fa-truck",
 						"title": "Land Transport",
 						"description": "Our international road freight services, including GCC door-to-door delivery with clearance, are designed to keep your operations easy and stress-free.",
-						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/truck.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+						"image": "images/land-transport.jpg"
 					}
 				]
 			},
@@ -222,19 +222,19 @@
 						"icon": "fa-solid fa-plane-departure",
 						"title": "الشحن الجوي",
 						"description": "خدمات شحن جوي عالمية متميزة بإدارة مبتكرة وشراكات مباشرة مع شركات الطيران.",
-						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/air.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+						"image": "images/air-freight.jpg"
 					},
 					{
 						"icon": "fa-solid fa-ship",
 						"title": "الشحن البحري",
 						"description": "خدمات شحن بحري عالمية مدعومة بشراكات قوية مع ناقلين بحريين مفضلين.",
-						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/sea%20freight.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+						"image": "images/sea-freight.jpg"
 					},
 					{
 						"icon": "fa-solid fa-truck",
 						"title": "النقل البري",
 						"description": "خدمة الشحن البري الدولي داخل دول الخليج من الباب إلى الباب مع التخليص لتسهيل أعمالك دون تعقيد.",
-						"image": "https://img1.wsimg.com/isteam/ip/02e820f4-c1ff-45fa-9b0b-ac1c12080f6d/truck.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"
+						"image": "images/land-transport.jpg"
 					}
 				]
 			},
